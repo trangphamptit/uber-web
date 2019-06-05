@@ -1,0 +1,134 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+header {
+  height: 60px;
+}
+section {
+  min-height: 80vh;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  height: 60px;
+}
+.navbar {
+  padding: 10px 15px;
+}
+.logo {
+  float: left;
+}
+.fa-bars {
+  float: right;
+  font-size: 29px;
+  color: black;
+}
+.modal {
+  width: 300px;
+  height: 250px;
+  border: none;
+  background: rgba(255, 255, 255, 0.75);
+  margin: auto;
+}
+h3 {
+  font-size: 4vmin;
+}
+input[type="number"] {
+  width: 80%;
+  height: 40px;
+  box-shadow: 0 2px 2px 0 rgb(219, 216, 216);
+  margin-left: 3px;
+  padding-left: 10px;
+}
+input[type="checkbox"] {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.fa-arrow-right {
+  float: right;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  padding: 15px;
+  margin: 15px 20px;
+}
+.footer-left {
+  width: 50%;
+  float: left;
+}
+.footer-right {
+  width: 50%;
+  float: right;
+}
+ul.aboutus > li {
+  display: inline-block;
+  margin-right: 15px;
+  border-right: 1px solid gray;
+  padding-right: 10px;
+}
+.fa-copyright {
+  margin: 5px 0px 5px 0px;
+}
+li.last {
+  border-right: none !important;
+}
+.footer-right > ul {
+  float: right;
+}
+.footer-right > ul > li {
+  display: inline-block;
+  margin-top: 15px;
+}
+.fab {
+  color: white;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid grey;
+}
+.fa-facebook-f {
+  background-color: blue;
+}
+.fa-linkedin-in {
+  background-color: rgb(0, 153, 255);
+}
+.fa-youtube {
+  background-color: red;
+}
+@media only screen and (max-width: 1280px) {
+  .footer-left {
+    display: none;
+  }
+  .footer-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
